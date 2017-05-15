@@ -1,0 +1,12 @@
+package repository;
+
+import java.util.List;
+
+import entity.SystemEntity;
+
+public interface SystemRepository {
+	List<SystemEntity> getSystemList();
+	void insertSystem(SystemEntity system);
+	/*SystemEntity selectOne(String id);*/
+	void updateSystem(SystemEntity system);
+}

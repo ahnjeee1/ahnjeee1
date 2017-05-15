@@ -1,0 +1,102 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script src="/solar/static/lib/jquery-3.2.1.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<title>시스템 목록</title>
+</head>
+<body>
+<input type="button" name="add" value="시스템 등록"/>
+<table class="table table-condensed">
+	<tr>
+		<td>uniqueId</td>
+		<td>아이디</td>
+		<td>이름</td>
+		<td>설명</td>
+		<td>버전</td>
+		<td>전송타입</td>
+		<td>타입</td>
+		<td>관리자</td>
+		<td>등록 날짜</td>
+		<td>업데이트 날짜</td>
+		<td>IP</td>		
+	</tr>
+</table>
+</body>
+<script>
+$(function(){
+	
+	getSystemList();
+	
+	$("input[name='add']").click(function(){
+		location.href="/solar/system/add";
+	});
+
+	function getSystemList(){
+		$.ajax({
+				type:"GET",
+				url:"/solar/system/systemList",
+				success:function(data,status,xhr){
+					renderView(data);
+				},
+				async: false,
+				error:function(xhr,status,error){
+					console.log("error : "+xhr.status);
+					alert("error : "+xhr.status);
+					alert("데이터를 불러오는 데 실패하였습니다.")
+				},
+				contentType:"application/json",
+				dataType:"json"
+			});
+	}
+	
+	function renderView(data){
+		$(data).each(function(){
+			var $tr = $("<tr/>").appendTo("table");
+			var $td = $("<td/>").appendTo($tr);
+			
+			var $a = $("<a/>",{'href':"/solar/system/"+this.id}).appendTo($td);			
+			$($a).text(this.unique_Id);			
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.id);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.name);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.description);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.version);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.transmission_type);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.type);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.manager);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.regist_date);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.up_Date);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.ip);
+			
+			$td = $("<td/>").appendTo($tr);
+			$("<input/>",{"type":"hidden","value":this.uniqueId}).appendTo($td);
+		});
+	}
+});
+</script>
+</html>

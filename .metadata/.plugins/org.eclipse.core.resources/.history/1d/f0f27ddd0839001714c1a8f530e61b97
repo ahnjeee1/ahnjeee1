@@ -1,0 +1,29 @@
+package controller;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class HomeController {
+	
+	@RequestMapping(value="/",method=RequestMethod.GET)
+	public String HomeController(){
+		return "redirect:/member";
+	}
+	
+	@RequestMapping(value="/goInterface",method=RequestMethod.GET)
+	public String goInterface() {
+		return "/interface/interface";
+	}
+	
+	@RequestMapping(value="/goSystem",method=RequestMethod.GET)
+	public String goSystem() {
+		return "/system/system";
+	}
+	
+	@RequestMapping(value="/myInfo",method=RequestMethod.GET)
+	public String myInfo() {
+		return "/member/member";
+	}
+}

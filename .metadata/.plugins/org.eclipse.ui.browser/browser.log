@@ -1,0 +1,176 @@
+
+5월 11, 2017 14:25:09.53 NEW SESSION
+5월 11, 2017 14:25:09.53 [14692:11792:0511/142509.530:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 11, 2017 14:25:09.54 [14692:11792:0511/142509.530:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 11, 2017 14:25:09.64 [8312:14392:0511/142509.646:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 11, 2017 14:26:50.80 
+5월 11, 2017 14:26:50.81 KLIB_SelfTest return : KLR_OK
+5월 11, 2017 14:34:38.88 [6940:14168:0511/143438.889:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 11, 2017 14:34:38.90 [5060:14368:0511/143438.889:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 11, 2017 14:34:38.91 [5060:14368:0511/143438.889:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 11, 2017 14:37:08.93 
+5월 11, 2017 14:37:08.94 KLIB_SelfTest return : KLR_OK
+5월 11, 2017 18:26:19.36 [14536:8732:0511/182619.368:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 11, 2017 18:26:19.38 [14536:8732:0511/182619.368:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 11, 2017 18:26:19.46 [12168:1824:0511/182619.468:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 11, 2017 18:38:23.58 
+5월 11, 2017 18:38:23.59 KLIB_SelfTest return : KLR_OK
+
+5월 12, 2017 10:07:31.76 NEW SESSION
+5월 12, 2017 10:07:31.76 [13700:11640:0512/100731.761:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 10:07:31.78 [13700:11640:0512/100731.763:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 10:07:32.42 [8972:9556:0512/100732.422:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 10:19:06.67 [13700:12408:0512/101906.671:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:19:06.70 [13700:12408:0512/101906.672:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:19:06.73 [13700:12408:0512/101906.730:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:19:27.70 [13700:12408:0512/101927.699:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:19:27.72 [13700:12408:0512/101927.714:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:19:27.75 [13700:12408:0512/101927.749:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:19:48.86 [13700:12408:0512/101948.863:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:20:09.90 [13700:12408:0512/102009.905:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 10:20:49.69 
+5월 12, 2017 10:20:49.70 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 10:21:40.35 [1364:6140:0512/102140.355:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 10:21:40.43 [1364:6140:0512/102140.357:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 10:21:40.69 [8780:10764:0512/102140.698:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 10:47:35.00 
+5월 12, 2017 10:47:35.01 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 10:47:59.55 [14792:5584:0512/104759.555:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 10:47:59.56 [14792:5584:0512/104759.556:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 10:47:59.91 [9544:13276:0512/104759.915:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 10:49:08.86 
+5월 12, 2017 10:49:08.87 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 10:49:28.89 [9548:15088:0512/104928.893:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 10:49:28.94 [2448:14368:0512/104928.941:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 10:49:28.95 [2448:14368:0512/104928.941:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 11:00:03.89 
+5월 12, 2017 11:00:03.90 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 11:00:21.49 [1672:13336:0512/110021.496:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 11:00:21.52 [1672:13336:0512/110021.496:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 11:00:21.71 [14740:11844:0512/110021.713:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 11:02:46.02 
+5월 12, 2017 11:02:46.03 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 11:04:37.91 [12496:6756:0512/110437.919:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 11:04:37.91 [12496:6756:0512/110437.919:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 11:04:38.14 [15040:13760:0512/110438.145:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+
+5월 12, 2017 13:22:48.65 NEW SESSION
+5월 12, 2017 13:22:48.65 [13492:11768:0512/132248.658:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 13:22:48.67 [13492:11768:0512/132248.658:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 13:22:48.83 [10272:7872:0512/132248.832:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 13:36:23.62 [13492:11768:0512/133623.619:ERROR:render_process_host_impl.cc(2059)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+5월 12, 2017 13:38:49.29 
+5월 12, 2017 13:38:49.30 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 13:39:07.27 [13760:5692:0512/133907.272:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 13:39:07.29 [768:15776:0512/133907.292:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 13:39:07.29 [768:15776:0512/133907.293:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 13:45:59.07 [768:15776:0512/134559.075:ERROR:CONSOLE(4)] "Mixed Content: The page at 'https://www.google.co.kr/_/chrome/newtab?espv=2&ie=UTF-8' was loaded over HTTPS, but requested an insecure XMLHttpRequest endpoint 'http://tooltip.dic.naver.com/tooltip.nhn?wordString=gmail&languageCode=4&nlp=true&mousePoint=0'. This request has been blocked; the content must be served over HTTPS.", source: chrome-extension://eobejphpabbjeehffmbiecckpkggpbai/js/jquery/jquery.js (4)
+5월 12, 2017 13:48:54.14 [768:432:0512/134854.145:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 13:58:21.19 [768:432:0512/135821.196:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 13:58:42.22 [768:432:0512/135842.220:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 14:24:48.90 
+5월 12, 2017 14:24:48.91 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 16:30:51.51 [5096:14652:0512/163051.517:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 16:30:51.53 [15028:15200:0512/163051.533:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 16:30:51.54 [15028:15200:0512/163051.533:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 16:31:37.11 
+5월 12, 2017 16:31:37.12 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 16:33:27.55 [15932:6116:0512/163327.551:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 16:33:27.57 [10044:768:0512/163327.551:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 16:33:27.57 [10044:768:0512/163327.551:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 17:06:09.93 
+5월 12, 2017 17:06:09.94 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 18:00:02.21 [2400:1088:0512/180002.218:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 18:00:02.22 [10812:13800:0512/180002.226:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:00:02.23 [10812:13800:0512/180002.226:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:00:20.36 [5956:9836:0512/180020.368:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:00:20.38 [5956:9836:0512/180020.369:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:00:20.53 [15536:17988:0512/180020.534:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 18:00:25.22 
+5월 12, 2017 18:00:25.23 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 18:06:24.68 [3248:7888:0512/180624.680:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:06:24.70 [3248:7888:0512/180624.681:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:06:24.85 [15216:13640:0512/180624.852:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 18:06:55.44 
+5월 12, 2017 18:06:55.44 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 18:07:35.20 [13020:6004:0512/180735.209:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 18:07:35.22 [7924:14284:0512/180735.216:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:07:35.23 [7924:14284:0512/180735.216:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:07:46.48 
+5월 12, 2017 18:07:46.49 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 18:09:17.91 [10908:8348:0512/180917.914:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:09:17.94 [10908:8348:0512/180917.914:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:09:18.04 [5816:11596:0512/180918.045:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 18:14:19.85 [10908:6896:0512/181419.853:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 18:14:40.91 [10908:6896:0512/181440.916:ERROR:ssl_client_socket_impl.cc(1136)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 12, 2017 18:19:26.60 
+5월 12, 2017 18:19:26.61 KLIB_SelfTest return : KLR_OK
+5월 12, 2017 18:20:27.00 [7796:844:0512/182027.003:ERROR:child_thread_impl.cc(762)] Request for unknown Channel-associated interface: ui::mojom::GpuMain
+5월 12, 2017 18:20:27.02 [14744:15572:0512/182027.012:ERROR:content_settings_pref.cc(469)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 18:20:27.03 [14744:15572:0512/182027.012:ERROR:content_settings_pref.cc(295)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 12, 2017 22:43:52.99 [14744:15572:0512/224352.990:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+5월 14, 2017 13:42:13.27 [14744:15572:0514/134213.277:ERROR:gcm_channel_status_request.cc(89)] GCM channel request failed.
+5월 14, 2017 13:43:15.84 
+5월 14, 2017 13:43:15.85 KLIB_SelfTest return : KLR_OK
+
+5월 15, 2017 09:54:36.67 NEW SESSION
+5월 15, 2017 09:54:36.67 [10720:10304:0515/095436.673:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 09:54:36.70 [10720:10304:0515/095436.673:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 09:56:51.43 
+5월 15, 2017 09:56:51.43 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 09:57:10.74 [1528:12136:0515/095710.746:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 09:57:10.76 [1528:12136:0515/095710.746:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 09:58:54.41 
+5월 15, 2017 09:58:54.42 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 09:59:14.85 [11976:14288:0515/095914.856:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 09:59:14.87 [11976:14288:0515/095914.856:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 10:53:27.67 
+5월 15, 2017 10:53:27.68 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 10:53:37.61 [14916:11936:0515/105337.613:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 10:53:37.63 [14916:11936:0515/105337.613:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 11:03:42.34 [14916:11936:0515/110342.342:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+5월 15, 2017 11:27:36.56 
+5월 15, 2017 11:27:36.57 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 11:27:50.80 [11468:14888:0515/112750.806:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 11:27:50.84 [11468:14888:0515/112750.806:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 13:20:13.95 
+5월 15, 2017 13:20:13.96 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 13:20:32.97 [5056:3456:0515/132032.971:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 13:20:32.98 [5056:3456:0515/132032.971:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 13:22:27.97 [5056:3456:0515/132227.974:ERROR:render_process_host_impl.cc(2094)] Request for unknown Channel-associated interface: device::mojom::ScreenOrientationListener
+5월 15, 2017 13:25:20.27 [5056:3912:0515/132520.272:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 15, 2017 14:12:12.97 
+5월 15, 2017 14:12:12.97 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 14:12:31.31 [8120:164:0515/141231.316:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 14:12:31.33 [8120:164:0515/141231.316:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 14:15:32.03 [8120:16560:0515/141532.033:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 15, 2017 14:15:53.09 [8120:16560:0515/141553.098:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 15, 2017 14:39:14.46 
+5월 15, 2017 14:39:14.46 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 14:42:34.59 [2196:9328:0515/144234.594:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 14:42:34.61 [2196:9328:0515/144234.594:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 14:48:05.83 [2196:13952:0515/144805.830:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 15, 2017 14:48:26.85 [2196:13952:0515/144826.852:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 15, 2017 15:19:49.60 
+5월 15, 2017 15:19:49.61 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 15:20:57.19 [17804:17212:0515/152057.199:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 15:20:57.21 [17804:17212:0515/152057.199:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 15:23:57.42 
+5월 15, 2017 15:23:57.43 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 15:24:28.76 [3944:14860:0515/152428.761:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 15:24:28.77 [3944:14860:0515/152428.762:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 15:48:00.27 
+5월 15, 2017 15:48:00.28 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 15:48:19.72 [16292:7380:0515/154819.721:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 15:48:19.73 [16292:7380:0515/154819.722:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 16:02:55.43 [16292:12736:0515/160255.435:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 15, 2017 16:03:16.45 [16292:12736:0515/160316.457:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100
+5월 15, 2017 16:07:06.24 
+5월 15, 2017 16:07:06.25 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 16:07:54.36 [17688:17260:0515/160754.362:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 16:07:54.37 [17688:17260:0515/160754.362:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 16:08:45.56 
+5월 15, 2017 16:08:45.57 KLIB_SelfTest return : KLR_OK
+5월 15, 2017 16:09:11.20 [15200:16576:0515/160911.204:ERROR:content_settings_pref.cc(405)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 16:09:11.21 [15200:16576:0515/160911.204:ERROR:content_settings_pref.cc(233)] Invalid pattern strings: file:///C:/Users/ahnje/Downloads/%EC%8A%A4%ED%86%A0%EB%B8%8C%20%ED%9B%8C%EB%A1%9C%EA%B5%AC%20__%20xpath%20%EB%A5%BC%20%EC%9D%B4%EC%9A%A9,java%20%EC%97%90%EC%84%9C%20xml%20%EB%AC%B8%EC%84%9C%20%EC%89%BD%EA%B2%8C%20%ED%8C%8C%EC%8B%B1%ED%95%98%EA%B8%B0.pdf,*
+5월 15, 2017 16:32:26.88 [15200:10568:0515/163226.881:ERROR:ssl_client_socket_impl.cc(1135)] handshake failed; returned -1, SSL error code 1, net_error -100

@@ -1,0 +1,103 @@
+package test;
+
+import static org.junit.Assert.*;
+
+import java.sql.Date;
+import java.util.List;
+
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
+
+import config.TestInfraConfig;
+import entity.Member;
+import repository.MemberRepository;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = TestInfraConfig.class)
+public class MemberRepositoryTest {
+
+	@Autowired
+	MemberRepository memberRepository;
+
+	Logger log = LoggerFactory.getLogger(MemberRepositoryTest.class);
+
+	/*@Transactional
+	@Test
+	public void getMemberListTest() {
+
+		assertNotNull(memberRepository);
+
+		List<Member> memberList = memberRepository.getMemberList();
+
+		assertEquals(memberList.size(), 1);
+
+		Member member = memberList.get(0);
+		log.info(member.getDepartment());
+
+	}*/
+
+	@Test
+	@Transactional
+	public void insertMemberTest() {
+
+		Member member = new Member();
+		member.setId("user1");
+		member.setAuth("1");
+		member.setDepartment("test");
+		member.setName("test");
+		member.setPhoneIn("010-xxxx-xxxx");
+		member.setPhoneEx("010-xxxx-xxxx");
+		member.setPw("123");
+		member.setPwUpdate(new Date(System.currentTimeMillis()));
+		member.setRegistDate(new Date(System.currentTimeMillis()));
+
+		memberRepository.insertMember(member);
+
+		List<Member> memberList = memberRepository.getMemberList();
+
+		assertEquals(memberList.size(), 2);
+
+	}
+
+	@Transactional
+	@Test
+	public void selectOneTest() {
+		Member member = memberRepository.selectOne("solar");
+
+		assertNotNull(member);
+
+		assertEquals(member.getId(), "solar");
+		
+		log.info(member.getId());
+	}
+
+	/*@Transactional
+	@Test
+	public void updateMemberTest() {
+		Member member = new Member();
+		member.setId("user1");
+		member.setAuth("1");
+		member.setDepartment("test");
+		member.setPhoneIn("010-xxxx-xxxx");
+		member.setPhoneEx("010-xxxx-xxxx");
+		member.setPw("123");
+		member.setPwUpdate(new Date(System.currentTimeMillis()));
+		member.setRegistDate(new Date(System.currentTimeMillis()));
+
+		memberRepository.insertMember(member);
+
+		member = memberRepository.selectOne("user1");
+		member.setAuth("2");
+		memberRepository.updateMember(member);
+		
+		member = memberRepository.selectOne("user1");
+		assertEquals(member.getAuth(),"2");
+	};*/
+
+}

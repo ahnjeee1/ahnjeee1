@@ -1,0 +1,49 @@
+package controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+
+
+@Controller
+public class HomeController {
+	
+	private final static Logger log = LoggerFactory.getLogger(HomeController.class);
+		
+	@RequestMapping(value="/",method=RequestMethod.GET)
+	public String homePageGET(HttpSession session){
+		if(session.getAttribute("member") == null)
+			return "main/login";		
+		return "redirect:/member";
+	}
+	
+	@RequestMapping(value="/index")
+	public String index() {
+		return "/main/menu";
+	}
+	
+	@RequestMapping(value="/solar/interface",method=RequestMethod.GET)
+	public String goInterface() {
+		return "/solar/interface";
+	}
+	
+	@RequestMapping(value="/solar/system",method=RequestMethod.GET)
+	public String goSystem() {
+		return "/system";
+	}
+	
+	@RequestMapping(value="/solar/member",method=RequestMethod.GET)
+	public String myInfo() {
+		return "/solar/member";
+	}
+	
+	@RequestMapping(value="/solar/joinForm",method=RequestMethod.GET)
+	public String joinForm() {
+		return "/joinForm";
+	}
+}

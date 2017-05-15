@@ -1,0 +1,92 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script src="/solar/static/lib/jquery-3.2.1.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>시스템 목록</title>
+</head>
+<body>
+<input type="button" name="add" value="회원등록"/>
+<table>
+	<tr>
+		<td>uniqueId</td>
+		<td>아이디</td>
+		<td>이름</td>
+		<td>설명</td>
+		<td>버전</td>
+		<td>전송타입</td>
+		<td>타입</td>
+		<td>관리자</td>
+		<td>IP</td>		
+	</tr>
+</table>
+</body>
+<script>
+$(function(){
+	
+	getSystemList();
+	
+	$("input[name='register']").click(function(){
+		location.href="/solar/member/register";
+	});
+
+	function getMemberList(){
+		$.ajax({
+				type:"GET",
+				url:"/solar/member/memberList",
+				success:function(data,status,xhr){
+				//	console.log("success");
+					renderView(data);
+				},
+				async: false,
+				error:function(xhr,status,error){
+					console.log("error : "+xhr.status);
+					alert("error : "+xhr.status);
+					alert("데이터를 불러오는 데 실패하였습니다.")
+				},
+				contentType:"application/json",
+				dataType:"json"
+			});
+	}
+	
+	function renderView(data){
+		$(data).each(function(){
+			var $tr = $("<tr/>").appendTo("table");
+			var $td = $("<td/>").appendTo($tr);
+			
+			var $a = $("<a/>",{'href':"/solar/member/"+this.id}).appendTo($td);			
+			$($a).text(this.id);			
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.pw);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.auth);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.department);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.phoneIn);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.phoneEx);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.registDate);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.pwUpdate);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.loginCnt);
+			
+			$td = $("<td/>").appendTo($tr);
+			$("<input/>",{"type":"hidden","value":this.uniqueId}).appendTo($td);
+		});
+	}
+});
+</script>
+</html>

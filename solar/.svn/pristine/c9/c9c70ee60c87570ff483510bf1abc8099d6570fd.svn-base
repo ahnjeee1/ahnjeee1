@@ -1,0 +1,86 @@
+package controller;
+
+import java.sql.Date;
+import java.util.List;
+
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Controller;
+import org.springframework.ui.Model;
+import org.springframework.web.bind.annotation.PathVariable;
+import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+import org.springframework.web.bind.annotation.ResponseBody;
+
+import dto.MemberViewDTO;
+import entity.Member;
+import repository.MemberRepository;
+
+@Controller
+@RequestMapping("/member")
+public class MemberController {
+	
+	private final static Logger log = LoggerFactory.getLogger(MemberController.class);
+	
+	@Autowired
+	private MemberRepository memberRepository;
+	
+	
+	@RequestMapping(method=RequestMethod.GET)
+	public String memberListPageGET(){
+		return "member/member";
+	}
+	
+	
+	@RequestMapping(method=RequestMethod.POST)
+	public @ResponseBody MemberViewDTO memberRegisterPOST(@RequestBody Member member){		
+		member.setPwUpdate(new Date(System.currentTimeMillis()));
+		member.setRegistDate(new Date(System.currentTimeMillis()));
+		member.setLoginCnt("0");
+		member.setAuth("2");
+		memberRepository.insertMember(member);
+		
+		MemberViewDTO memberViewDTO = new MemberViewDTO();
+		memberViewDTO.setMemberList(memberRepository.getMemberList());		
+		return memberViewDTO;
+	}
+	
+	
+	@RequestMapping(value="/{id}",method=RequestMethod.GET)
+	public @ResponseBody MemberViewDTO memberObjectGET(@PathVariable("id") String id){
+		MemberViewDTO memberViewDTO = new MemberViewDTO();
+		Member member= memberRepository.selectOne(id);
+		memberViewDTO.setMember(member);
+		return memberViewDTO;
+	}
+	
+	
+	@RequestMapping(value="/memberList",method=RequestMethod.GET)
+	public @ResponseBody MemberViewDTO memberListGET(){
+		MemberViewDTO memberViewDTO = new MemberViewDTO();
+		memberViewDTO.setMemberList(memberRepository.getMemberList());
+		return memberViewDTO;
+	}
+	
+	
+	@RequestMapping(method=RequestMethod.PUT)
+	public @ResponseBody MemberViewDTO memberUpdatePUT(@RequestBody Member member){
+		memberRepository.updateMember(member);
+		List<Member> memberList = memberRepository.getMemberList();
+		MemberViewDTO memberViewDTO = new MemberViewDTO();
+		memberViewDTO.setMemberList(memberList);
+		return memberViewDTO;
+	}
+	
+	
+	@RequestMapping(method=RequestMethod.DELETE)
+	public @ResponseBody MemberViewDTO memberDeleteDELETE(@RequestBody Member member){
+		memberRepository.deleteMember(member);
+		List<Member> memberList = memberRepository.getMemberList();
+		MemberViewDTO memberViewDTO = new MemberViewDTO();
+		memberViewDTO.setMemberList(memberList);
+		return memberViewDTO;
+	}
+}

@@ -1,0 +1,57 @@
+package repository.internal;
+
+import java.util.List;
+
+import javax.transaction.Transactional;
+
+import org.hibernate.Query;
+import org.hibernate.Session;
+import org.hibernate.SessionFactory;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.stereotype.Repository;
+
+import entity.Member;
+import entity.SystemEntity;
+import repository.MemberRepository;
+import repository.SystemRepository;
+
+
+@Repository
+public class SystemRepositoryImpl implements SystemRepository {
+
+	@Autowired
+	private SessionFactory sessionFactory;
+	
+	@Transactional
+	@Override
+	public List<SystemEntity> getSystemList() {
+		Session session = sessionFactory.getCurrentSession();
+		Query query = session.createQuery("select s from system s");
+		List<SystemEntity> list = query.list();
+		return list;
+	}
+	
+	@Transactional
+	@Override
+	public void insertSystem(SystemEntity system) {
+		Session session = sessionFactory.getCurrentSession();
+		session.save(system);
+	}
+	
+	@Transactional
+	@Override
+	public SystemEntity selectOnde(String id) {
+		Session session = sessionFactory.getCurrentSession();
+		List<SystemEntity> systems = session.createQuery("select s from SYSTEM s where s.id = :id")
+							.setParameter("unique_Id",id)
+							.list();
+		return systems.get(0);
+	}
+	
+	@Transactional
+	@Override
+	public void updateSystem(SystemEntity system) {
+		Session session = sessionFactory.getCurrentSession();
+		session.update(system);
+	}
+}

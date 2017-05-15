@@ -1,0 +1,379 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<style type="text/css">
+	.display{display: none;}
+
+#systemRegisterArea {
+	width : 40%;
+	margin-left: 2%;
+}
+</style>
+<script src="/solar/static/lib/jquery-3.2.1.js"></script>
+<script src="/solar/static/lib/jquery.serializeJSON.js"></script>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>Insert title here</title>
+</head>
+<body>
+<jsp:include page="/WEB-INF/main/menu.jsp"></jsp:include>
+<input type="button" name="register" value="시스템 등록"/>
+<table id="listTable" class="table table-striped">
+		<thead>
+		<th>아이디</th>
+		<th>이름</th>
+		<th>설명</th>
+		<th>버전</th>
+		<th>전송 방식</th>
+		<th>타입</th>
+		<th>관리자</th>
+		<th>등록날짜</th>
+		<th>업데이트</th>
+		<th>IP</th>		
+	</thead>
+	<tbody>
+		
+	</tbody>
+</table>
+
+<div id="systemInfoArea" class="display">
+	<form id="modifyForm">
+	<table>
+		<tr>
+			<td>아이디</td>
+			<td><input type="text" name="id" /></td>
+		</tr>
+		<tr>
+			<td>이름</td>
+			<td><input type="text" name="name" /></td>
+		</tr>
+		<tr>
+			<td>설명</td>
+			<td><input type="text" name="description" /></td>
+		</tr>
+		<tr>
+			<td>버전</td>
+			<td><input type="text" name="version"/></td>
+		</tr>
+		<tr>
+			<td>전송 방식</td>
+			<td><input type="text" name="transmission_type"/></td>
+		</tr>
+		<tr>
+			<td>타입</td>
+			<td><input type="text" name="type" /></td>
+		</tr>
+		<tr>
+			<td>관리자</td>
+			<td><input type="text" name="manager" /></td>
+		</tr>
+		<tr>
+			<td>등록날짜</td>
+			<td><input type="text" name="regist_date"/></td>
+		</tr>
+		<tr>
+			<td>업데이트 날짜</td>
+			<td><input type="text" name="up_Date" /></td>
+		</tr>
+		<tr>
+			<td>IP</td>
+			<td><input type="text" name="ip" /></td>		
+		</tr>
+		<tr>
+			<td colspan="4" style="text-align: center;">
+				<input type="hidden" name="unique_Id" />
+				<input type="button" name="modify" value="수정" />
+				<input type="button" name="delete" value="삭제" />
+				<input type="button" name="close" value="닫기" />
+			</td>
+		</tr>
+	</table>
+	</form>	
+</div>
+
+<!-- 등록폼  -->
+
+<div id="systemRegisterArea" class="display">
+	<form id="registerForm">
+		<div class="form-group row">
+  			<label class="col-2 col-form-label">ID</label>
+  			<div class="col-10">
+    		<input class="form-control" type="text" id="example-text-input" name="id">
+ 			</div>
+		</div>
+		<div class="form-group row">
+ 			 <label class="col-2 col-form-label">이름</label>
+ 			 <div class="col-10">
+    		 <input class="form-control" type="text" id="example-search-input">
+ 			 </div>
+		</div>
+		<div class="form-group row">
+  			<label for="example-email-input" class="col-2 col-form-label">설명</label>
+  			<div class="col-10">
+    		<input class="form-control" type="text" id="example-email-input">
+ 			</div>
+		</div>
+		<div class="form-group row">
+			<label for="example-url-input" class="col-2 col-form-label">버전</label>
+  			<div class="col-10">
+    		<input class="form-control" type="text" id="example-url-input">
+ 			</div>
+		</div>
+		<div class="form-group row">
+		 	<label for="example-tel-input" class="col-2 col-form-label">전송 방식</label>
+		    <div class="col-10">
+			<input class="form-control" type="text" id="example-tel-input">
+		 	</div>
+		</div>
+		<div class="form-group row">
+			<label for="example-password-input" class="col-2 col-form-label">타입</label>
+			<div class="col-10">
+			<input class="form-control" type="text" value="hunter2" id="example-password-input">
+			</div>
+		</div>
+		<div class="form-group row">
+  			<label for="example-number-input" class="col-2 col-form-label">관리자</label>
+  			<div class="col-10">
+  			</div>
+  		</div>
+    <input class="form-control" type="text" value="42" id="example-number-input">
+  	<input type="button" name="register" value="등록" />
+	<input type="button" name="close" value="닫기" />
+  </form>
+</div>
+
+<!-- <div id="systemRegisterArea" class="display">
+<form id="registerForm">
+	<table>
+		<tr>
+			<td>아이디</td>
+			<td><input type="text" name="id" /></td>
+		</tr>
+		<tr>
+			<td>이름</td>
+			<td><input type="text" name="name" /></td>
+		</tr>
+		<tr>
+			<td>설명</td>
+			<td><input type="text" name="description"/></td>
+		</tr>
+		<tr>
+			<td>버전</td>
+			<td><input type="text" name="version" /></td>
+		</tr>
+		<tr>
+			<td>전송 방식</td>
+			<td><input type="text" name="transmission_type" /></td>
+		</tr>
+		<tr>
+			<td>타입</td>
+			<td><input type="text" name="type"  /></td>
+		</tr>
+		<tr>
+			<td>관리자</td>
+			<td><input type="text" name="manager" /></td>
+		</tr>
+		<tr>
+			<td>IP</td>
+			<td><input type="text" name="ip" /></td>
+		</tr>
+		<tr>
+			<td colspan="2" style="text-align: center;">
+				<input type="button" name="register" value="등록" />
+				<input type="button" name="close" value="닫기" />
+			</td>
+		</tr>
+	</table>
+	</form>	
+</div>
+ --></body>
+<script>
+$(function(){
+	
+	getSystemList();
+	
+	//아이디를 클릭 -> 시스템 수정
+	$(document).on('click', '#systemId', function(event){
+		event.preventDefault();
+		$("#systemRegisterArea").hide();
+		var $id = $(this).text();
+				
+		$.ajax({
+			type:"GET",
+			url:"/solar/system/"+$id,
+			success:function(data,status,xhr){
+				renderSystemInfoView(data.system);
+			},
+			async: false,
+			error:function(xhr,status,error){
+				console.log("error : "+xhr.status);
+				alert("error : "+xhr.status+" 데이터를 불러오는 데 실패하였습니다.");
+			},
+			contentType:"application/json",
+			dataType:"json"
+		});		
+	});
+	
+	//수정 버튼 클릭시 처리
+	$(document).on('click', "#modifyForm  input[type='button'][name='modify']", function(){
+		var $json = JSON.stringify($('#modifyForm').serializeJSON());				
+		$.ajax({
+			type:"PUT",
+			url:"/solar/system",
+			data:$json,
+			success:function(data,status,xhr){
+				renderView(data.systemList);
+				alert("수정되었습니다");
+			},
+			async: false,
+			error:function(xhr,status,error){
+				console.log("error : "+xhr.status);
+				alert("error : "+xhr.status+" 데이터를 수정 하는 데 실패하였습니다.");
+			},
+			contentType:"application/json",
+			dataType:"json"
+		});		 
+		
+	});
+	
+	//삭제 버튼 클릭시 삭제처리
+	$(document).on('click', "#modifyForm  input[type='button'][name='delete']", function(){
+		var $json = JSON.stringify($('#modifyForm').serializeJSON());
+		console.log($json);
+		$.ajax({
+			type:"DELETE",
+			url:"/solar/system",
+			data:$json,
+			success:function(data,status,xhr){
+				$("#systemInfoArea").hide();
+				renderView(data.systemList);
+				alert("삭제 되었습니다");
+			},
+			async: false,
+			error:function(xhr,status,error){
+				console.log("error : "+xhr.status);
+				alert("error : "+xhr.status+" 데이터를 삭제 하는 데 실패하였습니다.");
+			},
+			contentType:"application/json",
+			dataType:"json"
+		});		 		
+	});
+	
+	//등록 버튼 클릭시처리
+	$(document).on('click', "input[type='button'][name='register']", function(){
+		$("#systemInfoArea").hide();
+		$("#systemRegisterArea").show();
+	});
+	
+	//시스템 뷰 에서  등록 버튼 클릭시 처리
+	$(document).on('click', "#registerForm  input[type='button'][name='register']", function(){
+		var $json = JSON.stringify($('#registerForm').serializeJSON());
+		$.ajax({
+			type:"POST",
+			url:"/solar/system",
+			data:$json,
+			success:function(data,status,xhr){
+				$("#systemRegisterArea").hide();
+				renderView(data.systemList);				
+				alert("등록되었습니다.");
+			},
+			async: false,
+			error:function(xhr,status,error){
+				console.log("error : "+xhr.status);
+				alert("error : "+xhr.status+" 데이터를 등록 하는 데 실패하였습니다.");
+			},
+			contentType:"application/json",
+			dataType:"json"
+		});		 
+	});
+	
+	//버튼 클릭시 처리
+	$(document).on('click', "input[type='button'][name='close']", function(){
+		$("#systemInfoArea").hide();
+		$("#systemRegisterArea").hide();
+	});
+	
+	//system modify 값 넣기
+	function renderSystemInfoView(system){
+		$("#modifyForm input[name='id']").val(system.id);
+		$("#modifyForm input[name='name']").val(system.name);
+		$("#modifyForm input[name='description']").val(system.description);
+		$("#modifyForm input[name='version']").val(system.version);
+		$("#modifyForm input[name='transmission_type']").val(system.transmission_type);
+		$("#modifyForm input[name='type']").val(system.type);
+		$("#modifyForm input[name='manager']").val(system.manager);
+		$("#modifyForm input[name='regist_date']").val(system.regist_date);
+		$("#modifyForm input[name='up_Date']").val(system.up_Date);
+		$("#modifyForm input[name='ip']").val(system.ip);
+		$("#modifyForm input[name='unique_Id']").val(system.unique_Id);
+		$("#systemInfoArea").show();
+	}
+	
+	//뷰를 불러오자 마자 ajax로 유저목록을 가져 온다
+	function getSystemList(){
+		$.ajax({
+				type:"GET",
+				url:"/solar/system/systemList",
+				success:function(data,status,xhr){
+					renderView(data.systemList);
+				},
+				async: false,
+				error:function(xhr,status,error){
+					console.log("error : "+xhr.status);
+					alert("error : "+xhr.status+" 데이터를 불러 오는 데 실패하였습니다.");
+				},
+				contentType:"application/json",
+				dataType:"json"
+		});
+	}
+	
+	//systemList
+	function renderView(data){
+		$("#listTable > tbody").empty();
+		
+				
+		$(data).each(function(){
+			var $tr = $("<tr/>").appendTo("#listTable");
+			var $td = $("<td/>").appendTo($tr);
+			
+			var $a = $("<a/>",{"href":"#","id":"systemId"}).appendTo($td);			
+			$($a).text(this.id);			
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.name);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.description);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.version);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.transmission_type);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.type);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.manager);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.regist_date);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.up_Date);
+			
+			$td = $("<td/>").appendTo($tr);
+			$($td).text(this.ip);
+			
+			$td = $("<td/>").appendTo($tr);
+			$("<input/>",{"type":"hidden","value":this.unique_Id}).appendTo($td);
+		});
+	}
+});
+</script>
+</html>

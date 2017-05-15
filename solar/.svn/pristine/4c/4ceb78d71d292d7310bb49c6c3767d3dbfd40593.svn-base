@@ -1,0 +1,61 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html>
+<html>
+<head>
+<script src="/solar/static/lib/jquery-3.2.1.js"></script>
+<script src="/solar/static/lib/jquery.serializeJSON.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>유저 등록</title>
+</head>
+<body>
+<form>
+<table>
+	<tr>
+		<td>아이디</td>
+		<td><input type="text" name="id" value="${member.id}" required/></td>
+	</tr>
+	<tr>
+		<td>비번</td>
+		<td><input type="text" name="pw" value="${member.pw}" required/></td>
+	</tr>
+	<tr>
+		<td>부서</td>
+		<td><input type="text" name="department" value="${member.department}" required/></td>
+	</tr>
+	<tr>
+		<td>내선번호</td>
+		<td><input type="text" name="phoneIn" value="${member.phoneIn}" required/></td>
+	</tr>
+	<tr>
+		<td>외선번호</td>
+		<td><input type="text" name="phoneEx" value="${member.phoneEx}"/></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<input type="button" name="register" value="등록" />
+		</td>
+	</tr>
+</table>
+</form>	
+</body>
+<script>
+$("input[name='register']").click(function(){
+	var $json = JSON.stringify($('form').serializeJSON());
+	console.log($json);
+	$.ajax({
+		type:"POST",
+		url:location.href,
+		data:$json,
+		success:function(data,status,xhr){
+			location.href="/solar/member";	
+		},
+		error:function(xhr,status,error){
+			alert("error"+xhr.status);				
+		},
+		async: false,
+		contentType:"application/json"
+	});
+});	
+</script>
+</html>

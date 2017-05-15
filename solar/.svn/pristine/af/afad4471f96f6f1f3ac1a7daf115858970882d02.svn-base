@@ -1,0 +1,108 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html">
+<html>
+<head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+
+<script src="/solar/static/lib/jquery-3.2.1.js"></script>
+<script src="/solar/static/lib/jquery.serializeJSON.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>유저 정보</title>
+</head>
+<body>
+
+<form>
+<table>
+	<tr>
+		<td>아이디</td>
+		<td><input type="text" name="id" value="${member.id}" required/></td>
+	</tr>
+	<tr>
+		<td>이름</td>
+		<td><input type="text" name="pw" value="${member.pw}" required/></td>
+	</tr>
+	<tr>
+		<td>설명</td>
+		<td><input type="text" name="auth" value="${member.auth}" required/></td>
+	</tr>
+	<tr>
+		<td>타입</td>
+		<td><input type="text" name="department" value="${member.department}" required/></td>
+	</tr>
+	<tr>
+		<td>담당자</td>
+		<td><input type="text" name="phoneIn" value="${member.phoneIn}" required/></td>
+	</tr>
+	<tr>
+		<td>수신시스템ID</td>
+		<td><input type="text" name="phoneEx" value="${member.phoneEx}"/></td>
+	</tr>
+	<tr>
+		<td>수신시스템 전송방식</td>
+		<td><input type="text" name="phoneEx" value="${member.phoneEx}"/></td>
+	</tr>
+	<tr>
+		<td>수신시스템 담당자</td>
+		<td><input type="text" name="registDate" value="${member.registDate}" required/></td>
+	</tr>
+	<tr>
+		<td>송신시스템ID</td>
+		<td><input type="text" name="phoneEx" value="${member.phoneEx}"/></td>
+	</tr>
+	<tr>
+		<td>송신시스템 전송방식</td>
+		<td><input type="text" name="phoneEx" value="${member.phoneEx}"/></td>
+	</tr>
+	<tr>
+		<td>송신시스템 담당자</td>
+		<td><input type="text" name="registDate" value="${member.registDate}" required/></td>
+	</tr>
+	<tr>
+		<td>등록날짜</td>
+		<td><input type="text" name="pwUpdate" value="${member.pwUpdate}" required/></td>
+	</tr>
+	<tr>
+		<td>수정날짜</td>
+		<td><input type="text" name="loginCnt" value="${member.loginCnt}" required/></td>		
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<input type="button" name="modify" value="수정" />
+			<input type="button" name="list" value="목록" />
+		</td>
+	</tr>
+</table>
+</form>	
+</body>
+
+<script>
+$(function(){
+	
+	$("input[name='modify']").click(function(){
+		var $json = JSON.stringify($('form').serializeJSON());
+		console.log($json);
+		$.ajax({
+			type:"PUT",
+			url:location.href,
+			data:$json,
+			success:function(data,status,xhr){
+				window.location.reload(true);	
+			},
+			error:function(xhr,status,error){
+				alert("error"+xhr.status);				
+			},
+			async: false,
+			contentType:"application/json"
+		});
+	});	
+	
+	$("input[name='list']").click(function(){
+		location.href="/solar/member";
+	});
+});
+
+</script>
+</html>

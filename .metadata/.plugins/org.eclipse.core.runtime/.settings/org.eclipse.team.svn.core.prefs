@@ -1,0 +1,6 @@
+eclipse.preferences.version=1
+externalMigrateFromAuthorizationDatabase/isMigrated=true
+migrateFromAuthorizationDatabase/isMigrated=true
+repositories/509e460b513500171faad98efc72b453=509e460b513500171faad98efc72b453;svn\://192.168.0.35\:3690/solar;svn\://192.168.0.35\:3690/solar;branches;tags;trunk;true;c651aab0-6bc9-42a1-b3a8-406be7236534;svn\://192.168.0.35;;false;<svn\://192.168.0.35\:3690> c651aab0-6bc9-42a1-b3a8-406be7236534;;0
+repositories/d089c414ef350017185cd4b0c0382ff6=d089c414ef350017185cd4b0c0382ff6;svn\://192.168.0.35/solar;svn\://192.168.0.35/solar;;;;false;c651aab0-6bc9-42a1-b3a8-406be7236534;svn\://192.168.0.35;;false;;;0
+synch_info/contigous=true

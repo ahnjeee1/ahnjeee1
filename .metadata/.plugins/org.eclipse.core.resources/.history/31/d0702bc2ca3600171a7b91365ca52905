@@ -1,0 +1,99 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<script src="/solar/static/lib/jquery-3.2.1.js"></script>
+<script src="/solar/static/lib/jquery.serializeJSON.js"></script>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>시스템 정보</title>
+</head>
+<body>
+
+<form>
+<table>
+	<tr>
+		<td>아이디</td>
+		<td><input type="text" name="id" value="${system.id}" required/></td>
+	</tr>
+	<tr>
+		<td>이름</td>
+		<td><input type="text" name="pw" value="${system.name}" required/></td>
+	</tr>
+	<tr>
+		<td>설명</td>
+		<td><input type="text" name="auth" value="${system.description}" required/></td>
+	</tr>
+	<tr>
+		<td>버전</td>
+		<td><input type="text" name="department" value="${system.version}" required/></td>
+	</tr>
+	<tr>
+		<td>전송타입</td>
+		<td><input type="text" name="phoneIn" value="${system.transmission_type}" required/></td>
+	</tr>
+	<tr>
+		<td>타입</td>
+		<td><input type="text" name="phoneEx" value="${system.type}"/></td>
+	</tr>
+	<tr>
+		<td>관리자</td>
+		<td><input type="text" name="registDate" value="${system.manager}" required/></td>
+	</tr>
+	<tr>
+		<td>등록 날짜</td>
+		<td><input type="text" name="loginCnt" value="${system.regist_date}" required/></td>		
+	</tr>
+	<tr>
+		<td>업데이트 날짜</td>
+		<td><input type="text" name="loginCnt" value="${system.up_Date}" required/></td>		
+	</tr>
+	<tr>
+		<td>IP</td>
+		<td><input type="text" name="pwUpdate" value="${system.ip}" required/></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<input type="button" name="modify" value="수정" />
+			<input type="button" name="list" value="목록" />
+			<input type="button" name="delete" value="삭제"/>
+		</td>
+	</tr>
+</table>
+</form>	
+</body>
+<script>
+$(function(){
+	
+	$("input[name='modify']").click(function(){
+		var $json = JSON.stringify($('form').serializeJSON());
+		console.log($json);
+		$.ajax({
+			type:"PUT",
+			url:location.href,
+			data:$json,
+			success:function(data,status,xhr){
+				window.location.reload(true);	
+			},
+			error:function(xhr,status,error){
+				alert("error"+xhr.status);				
+			},
+			async: false,
+			contentType:"application/json"
+		});
+	});	
+	
+	$("input[name='list']").click(function(){
+		location.href="/solar/system";
+	});
+	
+	$("input[name='modify']").click(function(){
+		$.ajax({
+			type:"GET"
+			url:"/system"
+			alert("시스템 삭제 성공")
+		});
+	});
+});
+</script>
+</html>

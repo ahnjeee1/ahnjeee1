@@ -1,0 +1,67 @@
+<%@ page language="java" contentType="text/html; charset=EUC-KR"
+    pageEncoding="EUC-KR"%>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=EUC-KR">
+<title>시스템 등록</title>
+</head>
+<body>
+<form>
+<table>
+	<tr>
+		<td>아이디</td>
+		<td><input type="text" name="id" value="${system.id}" required/></td>
+	</tr>
+	<tr>
+		<td>시스템 이름</td>
+		<td><input type="text" name="name" value="${system.name}" required/></td>
+	</tr>
+	<tr>
+		<td>설명</td>
+		<td><input type="text" name="description" value="${system.description}"/></td>
+	</tr>
+	<tr>
+		<td>버전</td>
+		<td><input type="text" name="version" value="${system.version}" required/></td>
+	</tr>
+	<tr>
+		<td>전송타입</td>
+		<td><input type="text" name="transmission_type" value="${system.transmission_type}"/></td>
+	</tr>
+	<tr>
+		<td>관리자</td>
+		<td><input type="text" name="type" value="${system.type}"/></td>
+	</tr>
+	<tr>
+		<td>관리자</td>
+		<td><input type="text" name="manager" value="${system.manager}"/></td>
+	</tr>
+	<tr>
+		<td colspan="2" style="text-align: center;">
+			<input type="button" name="register" value="등록" />
+		</td>
+	</tr>
+</table>
+</form>	
+</body>
+<script>
+$("input[name='add']").click(function(){
+	var $json = JSON.stringify($('form').serializeJSON());
+	console.log($json);
+	$.ajax({
+		type:"POST",
+		url:location.href,
+		data:$json,
+		success:function(data,status,xhr){
+			location.href="/solar/member";	
+		},
+		error:function(xhr,status,error){
+			alert("error"+xhr.status);				
+		},
+		async: false,
+		contentType:"application/json"
+	});
+});	
+</script>
+</html>

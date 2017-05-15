@@ -1,0 +1,45 @@
+package test;
+
+import java.sql.Date;
+import java.util.List;
+
+import static org.junit.Assert.*;
+import org.junit.Test;
+import org.junit.runner.RunWith;
+import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.test.context.ContextConfiguration;
+import org.springframework.test.context.junit4.SpringJUnit4ClassRunner;
+import org.springframework.transaction.annotation.Transactional;
+
+import config.TestInfraConfig;
+import entity.SystemEntity;
+import repository.SystemRepository;
+
+@RunWith(SpringJUnit4ClassRunner.class)
+@ContextConfiguration(classes = TestInfraConfig.class)
+public class SystemRepositoryTest {
+
+	@Autowired
+	SystemRepository systemRepository;
+	
+	@Transactional
+	@Test
+	public void test() {
+		SystemEntity systemEntity = new SystemEntity();
+		systemEntity.setId("0");
+		systemEntity.setDescription("0");
+		systemEntity.setIp("0");
+		systemEntity.setManager("0");
+		systemEntity.setName("0");
+		systemEntity.setRegist_date(new Date(System.currentTimeMillis()));
+		systemEntity.setTransmission_type("0");
+		systemEntity.setType("0");
+		systemEntity.setUp_Date(new Date(System.currentTimeMillis()));
+		systemEntity.setVersion("0");
+		systemRepository.insertSystem(systemEntity);
+		
+		List<SystemEntity> list = systemRepository.getSystemList();
+		assertEquals(list.size(), 1);
+	}
+
+}

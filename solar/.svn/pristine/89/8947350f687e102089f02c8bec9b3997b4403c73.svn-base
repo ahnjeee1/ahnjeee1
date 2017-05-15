@@ -1,0 +1,40 @@
+package controller;
+
+import javax.servlet.http.HttpSession;
+
+import org.springframework.stereotype.Controller;
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestMethod;
+
+@Controller
+public class HomeController {
+	
+	@RequestMapping(value="/",method=RequestMethod.GET)
+	public String homePageGET(HttpSession session){
+			
+		if(session.getAttribute("Member") == null)
+			return "main/login";
+		
+		return "redirect:/member";
+	}
+	
+	@RequestMapping(value="/index")
+	public String index() {
+		return "/main/menu";
+	}
+	
+	@RequestMapping(value="/solar/interface",method=RequestMethod.GET)
+	public String goInterface() {
+		return "/solar/interface";
+	}
+	
+	@RequestMapping(value="/solar/system",method=RequestMethod.GET)
+	public String goSystem() {
+		return "/system";
+	}
+	
+	@RequestMapping(value="/solar/member",method=RequestMethod.GET)
+	public String myInfo() {
+		return "/solar/member";
+	}
+}
